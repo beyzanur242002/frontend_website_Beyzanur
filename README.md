@@ -36,7 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ben and Jerry's https://www.benjerry.nl/
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home Pagina 
-  <img src="readme-images/homepagess " alt="Homepagina" width="375px" >
+  <img src="readme-images/homepagess" alt="Homepagina" width="375px" >
   
   #### Screenshot(s) van de tweede pagina (small screen):
   Activisme Pagina 
