@@ -36,12 +36,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ben and Jerry's https://www.benjerry.nl/
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home Pagina 
-  <img src="readme-images/homepagess" alt="Homepagina" width="375px" >
+ <img width="632" height="858" alt="image" src="https://github.com/user-attachments/assets/ac48c9ee-874b-4140-b051-05ffa0fa8be6" />
+
   
   #### Screenshot(s) van de tweede pagina (small screen):
   Activisme Pagina 
 
-  <img src="readme-images/activismefoto" alt="Activisme pagina" width="375px" >
+  <img width="640" height="862" alt="activismefoto" src="https://github.com/user-attachments/assets/3db4b248-52a6-456b-9bd4-877fa364cb01" />
+
 
  
 </details>
