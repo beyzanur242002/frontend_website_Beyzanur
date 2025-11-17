@@ -1,0 +1,325 @@
+
+/*Bohemian Raspberry SECTION 1*/
+
+main section:nth-of-type(1){
+    background-color: var(--color-background-one);
+    color: var(--color-text-one);
+
+}
+
+/*beetje margin dus ruimte geven voor de text en titel*/
+
+main section:nth-of-type(1) h2, main section:nth-of-type(1) p, main section:nth-of-type(1) a{
+    margin: 1em;
+}
+
+/*responsive voor eerste section*/
+@media (min-width: 970px) {
+
+  main section:nth-of-type(1) img{
+      position: relative;
+  }
+
+  main section:nth-of-type(1) h2{
+      position: absolute;
+      z-index: 1;
+
+      top:4em;
+
+      font-size: 3rem;
+      line-height: 4rem;/*van ben and jerry gevonden*/
+      margin-bottom: 1rem;
+
+      width: 50%;
+
+      color: var(--color-text-three);
+
+
+
+  }
+
+    main section:nth-of-type(1) p{
+      position: absolute;
+      z-index: 1;
+      top:19em;
+      font-size: 1.2rem;
+
+      width: 50%;
+
+      color: var(--color-text-three);
+
+      margin: 2em;
+
+  }
+
+    main section:nth-of-type(1) a{
+      position: absolute;
+      z-index: 1;
+      top:25em;
+
+      font-size:  1.25rem;/*van ben and jerry gevonden*/
+      line-height: 1.25rem;/*van ben and jerry gevonden*/
+      padding: 1rem 2rem;/*van ben and jerry gevonden*/
+
+      margin: 2em;
+
+  }
+
+
+  
+}
+
+/*hierbij heb ik eerste aan student asistent gevraagd (Mila). Ze zei dat ik met positioneren kan en ik heb bij werkgroep 6 dat heb gedaan.*/
+
+
+
+
+
+
+
+
+
+
+
+/*VERKOOPPUNTEN SECTION 2*/
+
+
+main section:nth-of-type(2){
+
+    background-color: var(--color-background-two);
+    color: var(--color-text-two);
+    margin: 1em;
+
+    
+
+}
+
+/*tweede plaatje border geven*/
+section:nth-of-type(2) img{
+  border-radius: 2em;
+
+}
+
+/*tweede plaatje als responsive is wordt kleiner*/
+@media (min-width: 970px) {
+  main section:nth-of-type(2) {
+    max-width: 45%;
+  }
+  
+}
+
+
+/*alle p van main beetje lettersize aanpassen*/
+
+
+
+/*DOE MEE SECTION 3*/
+
+main section:nth-of-type(3){
+    
+  background-color: var(--color-background-three);
+  color: var(--color-text-three);
+  padding: 0.5em;
+
+}
+
+/*Doe mee section responsive*/
+
+
+@media (min-width: 970px) {
+
+  main section:nth-of-type(3){
+      
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  main section:nth-of-type(3) article {
+      
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 1em;
+
+
+  }
+
+
+
+
+  
+}
+
+/*ik moest hier article gebruiken omdat anders kon ik geen flex kan geven en werkt responsive niet goed*/    
+
+
+
+/*Topverhalen section 4*/
+
+/*alle a van main vorm aanpassen*/
+main section:nth-of-type(1) a, main section:nth-of-type(2) a, main section:nth-of-type(3) a{
+  
+  text-decoration: none;
+  background-color: #ffbc0e;
+  border-radius:  40em;
+  padding: .25em 1em;
+  color: #111;
+  
+
+}
+/*alle  a, hover geven zodat je erop klikt en gebeurt als de echte website */
+main section:nth-of-type(1) a:hover, main section:nth-of-type(2) a:hover, main section:nth-of-type(3) a:hover{
+  
+  background-color: #f5dc9d;
+  color: gray;
+  
+
+}
+
+
+/*TOPVERHALEN SECTION 4*/
+main section:nth-of-type(4){
+
+  background-color: var(--color-background-four);
+  color: var(--color-text-four);
+  padding: 0.5em;
+
+
+}
+
+/*hier moet alle li items onder elkaar daarom heb ik flex wrap gebruikt*/
+
+main section:nth-of-type(4) ul{
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style-type: none;
+
+  gap: 1.5rem; 
+  padding: 1em;
+
+  
+    /*kijk hier of je gap en pdding samen mag gebruiken*/
+
+}
+
+
+main section:nth-of-type(4) ul li h3 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+
+}
+
+main section:nth-of-type(4) ul li p {
+  font-size: 1rem; 
+
+  
+
+}
+ /*als ze groot worden, wou ik dat ze 3rijtjes worden daarm persentage is zo*/
+@media (min-width: 970px) {
+
+  main section:nth-of-type(4) ul li {
+   max-width:25%;
+
+  }
+
+  main section:nth-of-type(4) h3{
+   font-size: 1.5rem;
+   line-height: 2.25rem; /*om dezelfde te maken heb ik bij ben and jerry gevonden*/
+
+
+
+  }
+
+  
+}
+
+@media (min-width: 1300px) {
+
+  main section:nth-of-type(4) ul li {
+   max-width:30%;
+
+  }
+
+  main section:nth-of-type(4) h3{
+   font-size: 1.5rem;
+   line-height: 2.25rem; /*om dezelfde te maken heb ik bij ben and jerry gevonden*/
+
+
+
+  }
+  
+}
+
+
+
+
+
+main section:nth-of-type(4) ul li{
+  width: 40%;
+
+  margin: 1em;
+
+
+}
+
+
+
+/*top verhalen alle img border geven*/
+main section:nth-of-type(4) img{
+  border-radius: 1em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Bronnen
+
+ik heb meestal naast de code gegeven waar ik wat heb gebruikt maar voor de rest heb ik deze linkjes
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-size
+
+
+om te leren van alles heb ik deze videos gekeken
+
+https://www.youtube.com/watch?v=Si4ViAvvnwU&t=10s
+https://www.youtube.com/watch?v=VvhvLK2gHjg&t=631s
+https://www.youtube.com/watch?v=jx5jmI0UlXU&t=389s
+http://youtube.com/watch?v=Z-WUXXk0LCY&t=10s
+https://www.youtube.com/watch?v=wdJGWNOIabI
+https://www.youtube.com/watch?v=U7X2hswNkIY&t=24s
+https://www.youtube.com/watch?v=mCIOcFGJh-Y&t=486s
+https://www.youtube.com/watch?v=PBUhnh8xg80&t=726s
+https://www.youtube.com/watch?v=1rstIn1W1JA&t=116s
+
+om grid te leren
+https://www.youtube.com/watch?v=nYWFWhUKj2I&t=1906s
+
+
+animatie
+https://www.youtube.com/watch?v=vldjgh3KzTE
+
+
+*/
