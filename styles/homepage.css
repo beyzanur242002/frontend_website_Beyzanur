@@ -125,6 +125,8 @@ main section:nth-of-type(3){
 
 /*Doe mee section responsive*/
 
+/*Doe mee section responsive*/
+
 
 @media (min-width: 970px) {
 
@@ -146,11 +148,25 @@ main section:nth-of-type(3){
 
   }
 
+  main section:nth-of-type(3) h2 {
+      font-size: 2.5rem;
+  }
+
+  main section:nth-of-type(3) p{
+      font-size: 1.5rem;
+  }
+
+  main section:nth-of-type(3) a {
+      font-size:  1.25rem;/*van ben and jerry gevonden*/
+      line-height: 1.25rem;/*van ben and jerry gevonden*/
+      width:50%;
 
 
+  }
 
-  
 }
+
+
 
 /*ik moest hier article gebruiken omdat anders kon ik geen flex kan geven en werkt responsive niet goed*/    
 
@@ -323,3 +339,4 @@ https://www.youtube.com/watch?v=vldjgh3KzTE
 
 
 */
+
